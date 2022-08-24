@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turnos</title>
+  <link rel="shortcut icon" href="media/coderhouse-logo.png">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" href="./CSS/mediaqueries.css">
+</head>
+
+<body id="body-1">
+  <header class="header">
+    <h1 class="header__titulo">
+      Consultorio Externo de Pediatría
+    </h1>
+    <div class="div">
+      <img src="./assets/img/pediatria1.png" alt="pediatria1" class="img">
+    </div>
+  </header>
+  
+  <nav class="menu">
+       
+    <ul class="menu__lista"> 
+      <li><a href="Index.html">Inicio</a></li>
+      <li><a href="Sobre-mi.html">Sobre Mi</a></li>
+      <li><a href="Instalaciones.html">Instalaciones</a></li>
+      <li><a href="Serviciosmedicos.html">Servicios Médicos</a></li>
+      <li><a href="Turnos.html">Turnos</a></li>
+        
+    </ul>
+  </nav>
+  <section>
+    <article id="articleForm">
+      <div>
+        <img src="./assets/img/Balanza.png" alt="Balanza" width="200px">
+        <img src="./assets/img/examen2.jpeg" alt="" width="200px">
+      </div>
+      <form class="backgroundForm" action="" method="GET" enctype="multipart/form-data">
+        <fieldset>
+          <legend><h3>Turnos</h3></legend>
+          <div class="divNombre">
+            <label for="nombre y apellido">Nombre y apellido</label>
+            <input type="text" placeholder="nombre y apellido">
+          </div>
+          <br>
+          <div class="divCobertura">
+            <label for="Cobertura">Cobertura médica</label>
+            <input type="text" placeholder="Cobertura médica">
+          </div>
+          <br> 
+          <div class="divEdad">
+            <label for="Edad del paciente">Edad del Paciente:</label>
+            <input type="number" placeholder="Edad">
+          </div>
+          <br>
+          <div class="divDia">
+            <label for="día">Día:</label>
+            <input type="date">
+          </div>
+          
+          <br>
+          <div class="divHora">
+            <label for="hora">Hora</label>
+            <input type="time">
+          </div>
+          
+          <br>
+          <div class="divSubmit">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+          </div>
+          
+        </fieldset>
+      </form>
+        <img src="./assets/img/turno2.jpg" alt="">
+    </article>
+       
+    </section>
+    <footer id="footer">
+      <div class="footer__datos">
+        <ul>
+          <li>Dra Candela Settecase</li>
+          <li>Candelasettecase@gmail.com</li>
+          <li>Tel: 0341-153139104</li>
+        </ul>
+        <span>&copy 2022</span>
+      </div> 
+    </footer>
+</body>
+
+</html>

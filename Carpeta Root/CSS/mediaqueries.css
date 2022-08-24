@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  #body-1{
+   background-image: none;
+   background-color: rgba(197, 194, 194, 0.836);
+  }
+  
+}
