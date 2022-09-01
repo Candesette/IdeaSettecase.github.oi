@@ -8,9 +8,10 @@
   <title>Instalaciones</title>
   <link rel="shortcut icon" href="media/coderhouse-logo.png">
   <link rel="stylesheet" href="./css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
 
-<body id="body-1">
+<body id="body-1" class="container-fluid">
   <header class="header">
     <h1 class="header__titulo">
       Consultorio Externo de Pediatría
@@ -20,7 +21,7 @@
     </div>
   </header>
   
-  <nav class="menu">
+  <nav class="menu" class="container-fluid">
        
     <ul class="menu__lista"> 
       <li><a href="index.html">Inicio</a></li>
@@ -31,53 +32,104 @@
     </ul>
   </nav>
   
-  <section class="containerInstal">
+  <section class="containerInstal" class="container-fluid">
    
-   <div class="flex-child">
-      <div class="admision">
-        <li><h3>Admisión</h3>
-          <ul>
-            <li>Horarios de atención</li>
-            <li>Solicitud y/o modificación de Turnos</li>
-          </ul>
-        </li>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="admision">
+            <li><h3>Admisión</h3>
+              <ul>
+                <li>Horarios de atención</li>
+                <li>Solicitud y/o modificación de Turnos</li>
+              </ul>
+            </li>
+          </div>
     
-      </div>   
-      <div class="consultorio">
-        <li><h3>Consultorio</h3>
-          <ul>
-            <li>Crecimiento y Desarrollo.</li>
-            <li>Alimentación.</li>
-            <li>Actividad física.</li>
-            <li>Control de carnet de vacunas.</li>
-            <li>Desarrollo Puberal.</li>
-            <li>Solicitud de estudios complementarios.</li>
-            <li>Interconsulta con especialistas.</li>
-            <li> Control y seguimiento de patologías crónicas</li>
-          </ul>
-        </li> 
-      </div>           
-     <div class="sala">
-      <li><h3>Sala de Espera</h3>
-        <ul>
-          <li>Espacio amplio y confortable.</li>
-          <li>Desarrollo de actividades didácticas.</li>
-          <li>Talleres interactivos</li>
-          <li>Espacio de Juego.</li>
-          <li>Cartelería informativa.</li>
-        </ul>
-      </li>
-      </div> 
+        </div>  
+          
+        <div class="col-md-6">
+          <div class="consultorio">
+            <li><h3>Consultorio</h3>
+              <ul>
+                <li>Crecimiento y Desarrollo.</li>
+                <li>Alimentación.</li>
+                <li>Actividad física.</li>
+                <li>Control de carnet de vacunas.</li>
+                <li>Desarrollo Puberal.</li>
+                <li>Solicitud de estudios complementarios.</li>
+                <li>Interconsulta con especialistas.</li>
+                <li> Control y seguimiento de patologías crónicas</li>
+              </ul>
+            </li> 
+          </div>                    
+        </div> 
 
+        <div class="col-md-6">
+          <div class="sala">
+            <li><h3>Sala de Espera</h3>
+              <ul>
+                <li>Espacio amplio y confortable.</li>
+                <li>Desarrollo de actividades didácticas.</li>
+                <li>Talleres interactivos</li>
+                <li>Espacio de Juego.</li>
+                <li>Cartelería informativa.</li>
+              </ul>
+            </li>
+          </div>
+          
+        </div>
+        
+        </div>
+      </div>
+     
     </div>
 
-    <div class="img2">
-      <img src="./assets/img/sala1.jpg" alt="sala1" width="250px">
-      <img src="./assets/img/sala2.jpg" alt="sala2" width="250px">
-      <img src="./assets/img/consultorio1.jpg" alt="consultorio1" width="270px">
-      <img src="./assets/img/consultorio2.jpg" alt="consultorio2" width="250px">
-    </div>
+  <!-- <div class="flex-child"></div> -->
   </section>
+<div id="carouselExampleControls" class="carousel slide container" data-bs-ride="carousel">
+    <div class="carousel-inner ms-5 ps-5">
+      <div class="carousel-item active">
+        <img src="./assets/img/sala1.jpg" alt="sala1">
+      </div>
+      <div class="carousel-item active">
+        <img src="./assets/img/sala2.jpg" alt="sala2" >
+      </div>
+      <div class="carousel-item active">
+        <img src="./assets/img/consultorio1.jpg" alt="consultorio1" >
+      </div>
+      <div class="carousel-item active">
+        <img src="./assets/img/consultorio.jpg" alt="consultorio">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+ </div>
+  
+ <!--  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/img/sala1.jpg" alt="sala1">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/sala2.jpg" alt="sala2" >
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/consultorio1.jpg" alt="consultorio1" >
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/consultorio2.jpg" alt="consultorio2">
+      </div>
+    </div> -->
+  
+
+<!-- <div class="img2"></div> -->
   <footer id="footer">
     <div class="footer__datos">
       <ul>

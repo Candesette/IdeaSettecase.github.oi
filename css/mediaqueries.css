@@ -2,11 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-@media (max-width: 768px) {
+} */
+@media (max-width:576px) {
   #body-1{
-   background-image: none;
-   background-color: rgba(197, 194, 194, 0.836);
+    background: linear-gradient(100deg, rgba(88,79,233,1) 0%, rgba(192,89,236,0.5242471988795518) 40%, rgba(71,141,224,1) 100%), url("../assets/img/bebe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
   }
   
-} */
+}
