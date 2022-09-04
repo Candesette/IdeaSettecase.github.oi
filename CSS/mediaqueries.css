@@ -5,10 +5,101 @@
 } */
 @media (max-width:576px) {
   #body-1{
-    background: linear-gradient(100deg, rgba(88,79,233,1) 0%, rgba(192,89,236,0.5242471988795518) 40%, rgba(71,141,224,1) 100%), url("../assets/img/bebe.jpg");
+    width: 100%;
+    background: linear-gradient(150deg, rgba(88,79,233,1) 0%, rgba(192,89,236,0.5242471988795518) 40%, rgba(71,141,224,1) 100%);
     background-repeat: no-repeat;
     background-size: cover;
+    height: auto;
+
     
   }
+  .header{
+    display: flex;
+    flex-direction: column;
+    font-size: 30%;
+    text-align: center;
+  }
+  .div__parrafo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 75%;
+    margin-top: 100px;
+  }
+  .redes__style{
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .menu{
+    display: none;
+  }
+ #navBar{
+    display: flex;
+    border-radius: 10px;
+ }
+ .section{
+    display: flex;
+    flex-direction: column;
   
+ }
+ .section .table{
+    width: 30%;
+    align-items: center;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; ;
+    align-self: center;
+   background: linear-gradient(120deg, #4568dccb 0%, #b16ab3bb 70%);
+  }
+  .div__redes{
+    width: 200px; 
+    justify-content: center;
+    text-align: center;
+    
+         
+  }
+  .redes__style{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    
+  }
+  .consultas{
+    margin-right: 5px;
+    margin-bottom: 5px;
+    list-style: none; 
+    text-align: center
+  
+  }
+  .redes__style a img{
+    margin-top: 30px;
+    width: 20px;
+  
+  }
+  #carouselExampleControls{
+    width:20px;
+  }
+  .box-fila{
+    display: flex;
+    flex-direction: column;
+    
+    }  
+    .divContacto{
+      display: flex;
+      flex-direction: column;
+      background: radial-gradient(#c6ffdd 50%, #fbd786, #f7797d);
+      width: 90%;
+      height: 380px;
+      margin: 60px ;
+      
+    }
+    .ccform {
+      width: 500px;
+      
+     }
+
 }
