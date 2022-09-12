@@ -2,195 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-}
-#body-1{
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-    width: 100%;
-    background: linear-gradient(100deg, rgba(88,79,233,1), rgba(211, 118, 191, 0.527), rgba(79, 144, 224, 0.651)), url("../assets/img/bebe.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:auto;
 }
 
-.header{
-    margin-top: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-.header__titulo{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2rem;
-}
-.div .img{
-    width: 10rem;
-    margin-top: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-    border-radius: 10px;
-}
 #navBar{
   display: none;
 }
-.menu{
-    
-    width: 40rem ;
-    height: 50px;
-    margin-top: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    margin-left: 5px;
-    padding: 5px 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    align-items: center;
-    align-self: center;  
-    
-}
 
-.menu__lista li:hover{
-  background: linear-gradient(to right, #ff512f, #f09819);
-  
-}
-.menu__lista li a:hover{
-  color: whitesmoke;
-  text-decoration:solid;
-}
-.menu__lista li { 
-  list-style: none;
-  display: inline;
-  padding: 10px;   
-}
-.menu__lista li a{
-  color: black;
-  font-family:'Mukta', sans-serif;
-  font-size: large;
-  text-decoration: none;
-}
-
-.div__parrafo{
-  font-family: 'Mukta', sans-serif;
-  font-weight: bolder;
-  margin-top: 50px;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  margin-left: 20px;
-  display: flex;
-  flex-direction: row;
-  height: 2fr;
-  justify-content: space-around;
-  align-items: center;
-  font-size: 1rem;
-             
-}
-
-.div__parrafo div p{
-  text-align: center;
-  width: 400px;
-}
-
-.div__redes{
-  width: 250px; 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  padding-left: 10px;
-  padding-left: 50px;
-       
-}
-.div__redes ul{
-  list-style: none;
-}
-.redes__style{
-  text-align: center;
-}
-.redes__style a img{
-  width: 20%;
-
-}
-.consultas{
-  margin-right: 5px;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  list-style: none; 
-  text-align: center;
-}
-
-.consultas li a{
-  color: black;   
-  text-decoration: none;
-}
-
-.section{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 80px;
-  margin-right: 5px;
-  margin-bottom: 40px;
-  margin-left: 5px;   
-}
-
-.section .table{
-  width: 60rem;
-  align-items: center;
-  margin-top: 5px;
-  color: rgb(7, 1, 14);
-  font-weight:bold;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; ;
-  align-self: center;
-  background: linear-gradient(120deg, #4568dccb 0%, #b16ab3bb 70%);
-}
-/* table{
-  border-style:none;
-  border-color: rgb(135, 100, 182);
-} */
-table th{
-  border-width: 3px;
-  border-radius: 5px;
-  width: 200px;
-  text-align: center;
-}
-table td{
-  border-width: 3px;
-  border-radius: 5px;
-  text-align: center;
-}
-
-.section .table__img img{
-  width: 250px;
-  border-radius: 10%;
-  padding-left: 10px;
-  align-self: center;
-    
-}
-
-#footer{
-  margin-top: 50px;
-}
-.footer__datos{
-  margin-top: 5px;
-  margin-right: 10px;
-  margin-bottom: 5px;
-  margin-left: 10px;
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  justify-content: space-between;
-  font-style: italic;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 #divGrid{
   display: grid;
   gap: 10px;
@@ -243,21 +60,29 @@ table td{
   font-weight: bold; 
 }
 
-/* .sectionSobremi{
-  grid-area: inicio;
-  justify-self: center;  
-} */
 #footer{
-  margin-top: 40px;
-  margin-right: 10px;
-  margin-left: 30px;
+  display: flex;
   
+  margin-top: 40px;
+  margin-right: 20px;
+  margin-left: 5px;
+  width: 100%;
+  
+}
+.footer__datos{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
 }
 .footer__datos ul{
   list-style: none;
+  padding: 10px;
+
 }
 
 .flexContainer{
+  width: 100%;
   display: flex;
   flex-direction: column;
   margin-top: 30px;
@@ -270,7 +95,7 @@ table td{
   display: flex;
   flex-direction: row;
   margin-top: 30px;
-  justify-content: space-around;
+  justify-content: space-between;
   align-content: center;
   list-style: none;
   font-family: 'Mukta', sans-serif;
@@ -284,14 +109,9 @@ table td{
 }
 
 .admision li h3{
-  font-size: large;
   text-align: center; 
 }
-/* .flex-child{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-} */
+
 .consultorio{
   padding-top:5px; ;
   padding-right: 15px ;
@@ -312,12 +132,6 @@ table td{
 .sala li h3{
   text-align: center;
 }
-/* .img2{
-  display: grid;
-  gap: 10px;
-  grid-template-columns: 300px 300px;
-  justify-items: center;
-} */
 
 .columnas{
   display: flex;
