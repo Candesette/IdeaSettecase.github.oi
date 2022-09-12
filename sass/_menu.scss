@@ -1,0 +1,35 @@
+.menu{
+  width: 40rem ;
+  height: 50px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  padding: 5px 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  align-self: center; 
+  .menu__lista{
+    li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    &:hover{
+      background: linear-gradient(to right, #ff512f, #f09819);
+    }
+    a{
+      color: black;
+      font-family:'Mukta', sans-serif;
+      font-size: large;
+      text-decoration: none;
+      &:hover{
+      color: whitesmoke;
+      text-decoration:solid;
+      }
+    }
+  } 
+  } 
+  
+}

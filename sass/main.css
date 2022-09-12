@@ -8,23 +8,25 @@
   background-size: cover;
   height: auto;
 }
-#body-1 .header {
+
+.header {
   margin: 1rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-#body-1 .header .header__titulo {
+.header .header__titulo {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 2rem;
 }
-#body-1 .header .div .img {
+.header .div .img {
   width: 10rem;
   border-radius: 10px;
   margin: 1rem;
 }
-#body-1 .menu {
+
+.menu {
   width: 40rem;
   height: 50px;
   margin-top: 5px;
@@ -38,26 +40,27 @@
   align-items: center;
   align-self: center;
 }
-#body-1 .menu .menu__lista li {
+.menu .menu__lista li {
   list-style: none;
   display: inline;
   padding: 10px;
 }
-#body-1 .menu .menu__lista li:hover {
+.menu .menu__lista li:hover {
   background: linear-gradient(to right, #ff512f, #f09819);
 }
-#body-1 .menu .menu__lista li a {
+.menu .menu__lista li a {
   color: black;
   font-family: "Mukta", sans-serif;
   font-size: large;
   text-decoration: none;
 }
-#body-1 .menu .menu__lista li a:hover {
+.menu .menu__lista li a:hover {
   color: whitesmoke;
   -webkit-text-decoration: solid;
           text-decoration: solid;
 }
-#body-1 .div__parrafo {
+
+.div__parrafo {
   font-family: "Mukta", sans-serif;
   font-weight: bolder;
   margin-top: 50px;
@@ -71,11 +74,11 @@
   align-items: center;
   font-size: 20px;
 }
-#body-1 .div__parrafo div p {
+.div__parrafo div p {
   text-align: center;
   width: auto;
 }
-#body-1 .div__parrafo .div__redes {
+.div__parrafo .div__redes {
   width: 250px;
   display: flex;
   flex-direction: column;
@@ -83,15 +86,15 @@
   padding-left: 10px;
   padding-left: 50px;
 }
-#body-1 .div__parrafo .div__redes .redes__style {
+.div__parrafo .div__redes .redes__style {
   list-style: none;
   text-align: center;
   padding: 10px;
 }
-#body-1 .div__parrafo .div__redes .redes__style a img {
+.div__parrafo .div__redes .redes__style a img {
   width: 40%;
 }
-#body-1 .div__parrafo .div__redes .consultas {
+.div__parrafo .div__redes .consultas {
   margin-right: 5px;
   margin-bottom: 5px;
   margin-left: 5px;
@@ -99,11 +102,12 @@
   list-style: none;
   text-align: center;
 }
-#body-1 .div__parrafo .div__redes .consultas li a {
+.div__parrafo .div__redes .consultas li a {
   color: black;
   text-decoration: none;
 }
-#body-1 .section {
+
+.section {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -113,13 +117,13 @@
   margin-bottom: 40px;
   margin-left: 5px;
 }
-#body-1 .section .table__img img {
+.section .table__img img {
   width: 250px;
   border-radius: 10%;
   padding-left: 10px;
   align-self: center;
 }
-#body-1 .section .table {
+.section .table {
   width: 60rem;
   align-items: center;
   margin-top: 5px;
@@ -129,21 +133,22 @@
   align-self: center;
   background: linear-gradient(120deg, rgba(69, 104, 220, 0.7960784314) 0%, rgba(177, 106, 179, 0.7333333333) 70%);
 }
-#body-1 .section .table th {
+.section .table th {
   border-width: 3px;
   border-radius: 5px;
   width: 200px;
   text-align: center;
 }
-#body-1 .section .table td {
+.section .table td {
   border-width: 3px;
   border-radius: 5px;
   text-align: center;
 }
-#body-1 #footer {
+
+#footer {
   margin-top: 50px;
 }
-#body-1 #footer .footer__datos {
+#footer .footer__datos {
   margin-top: 5px;
   margin-right: 10px;
   margin-bottom: 5px;

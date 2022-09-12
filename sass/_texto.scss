@@ -1,0 +1,53 @@
+.div__parrafo{
+  font-family: 'Mukta', sans-serif;
+  font-weight: bolder;
+  margin-top: 50px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  height: 2fr;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+
+  div{
+    p{
+    text-align: center;
+    width: auto;
+  } ;
+  }
+  .div__redes{
+    width: 250px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 10px;
+    padding-left: 50px;
+    .redes__style{
+      list-style: none;
+      text-align: center;
+      padding: 10px;
+      a{
+        img{
+          width: 40%;
+        }
+      }
+    }
+    .consultas{
+      margin-right: 5px;
+      margin-bottom: 5px;
+      margin-left: 5px;
+      padding: 10px;
+      list-style: none; 
+      text-align: center;
+      li{
+        a{
+          color: black;   
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
