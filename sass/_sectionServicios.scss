@@ -1,0 +1,101 @@
+.flexContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  justify-content: center;
+  align-content: center;
+  list-style: none;
+  font-family: 'Mukta', sans-serif;
+  .box-fila{
+    display: flex;
+    flex-direction: row;
+    .columnas{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      margin-right: 10px;
+      margin-left: 30px; 
+
+      .parrafos{
+        width: 500px;
+        text-align:justify;
+        align-self: center;
+        margin-bottom: 80px;
+        padding: 10px 10px;
+        border-style:solid;
+        border-color: rgba(245, 207, 135, 0.425);
+        border-radius: 20px;
+        color: rgb(0, 0, 0);
+        font-size: large;
+        font-weight: bold;
+        background-color: rgba(245, 207, 135, 0.425);
+      }
+      
+      .img3{
+        display: grid;
+        grid-template-columns: 200px 200px;
+        grid-template-rows: 200px 200px;
+        gap: 10px;
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+      }
+      
+    }
+    
+  } 
+  .divContacto{
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient(#c6ffdd 50%, #fbd786, #f7797d);
+    width: 28rem;
+    height: 380px;
+    margin: 60px ;
+    .ccform {
+      margin: 0 auto;
+      width: 50rem;
+      .classForm{
+        margin-bottom:10px;
+        width:50%;
+        .formSpan{
+          color:#e3ec66; 
+          float:left;
+          padding:8px;
+          width:8%;
+          background:#d6ec0ad2;
+          text-align:center;  
+        }
+        .inputField {
+          color:#000000; 
+          background:#f7f7f7fa;
+          border:none;
+          padding:15.5px;
+          width:91.9%;
+          display:block;
+          font-family: 'Lato',Arial,sans-serif;
+          font-size:14px;
+        }
+        .ccbtn{
+          display:block;
+          border:none;
+          background:#d6ec0ad2;
+          color:#FFFFFF;
+          padding:12px 25px;
+          cursor:pointer;
+          text-decoration:none;
+          font-weight:bold;
+          margin-left: 35px;
+          &:hover{
+            background:#f3f0eb;
+            color: #7184e6;
+
+          }
+        }
+        
+      }
+      
+     }
+  } 
+}

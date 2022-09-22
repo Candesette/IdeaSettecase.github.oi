@@ -1,5 +1,10 @@
 #footer{
   margin-top: 50px;
+  display: flex;
+  margin-top: 40px;
+  margin-right: 20px;
+  margin-left: 5px;
+  width: 100%;
   .footer__datos{
     margin-top: 5px;
     margin-right: 10px;
@@ -10,7 +15,14 @@
     flex-direction: row;
     list-style: none;
     justify-content: space-between;
+    align-items: center;
+    align-content: center;
     font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    ul{
+      list-style: none;
+      padding: 10px;
+    
+    }
   }
 }

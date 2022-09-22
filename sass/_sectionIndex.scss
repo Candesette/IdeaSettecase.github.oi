@@ -17,19 +17,18 @@
     }
   }
   .table{
-    width: 60rem;
+    width: 60%;
     align-items: center;
     margin-top: 5px;
-    color: rgb(7, 1, 14);
-    font-weight:bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; ;
+    color: rgb(255, 255, 255);
     align-self: center;
-    background: linear-gradient(120deg, #4568dccb 0%, #b16ab3bb 70%);
+    font-weight: bold;
+    background: linear-gradient(rgba(7,7,7,0.70), rgba(7,1,14,0.70));
       th{
         border-width: 3px;
         border-radius: 5px;
-        width: 200px;
         text-align: center;
+        
       }
       td{
         border-width: 3px;
